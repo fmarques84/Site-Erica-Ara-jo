@@ -25,9 +25,29 @@ p {
   border-color: #2f4f4f;
 }
 
+.subtitulo {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, sans-serif;
+  text-align: center;
+}
+
+.subtitulo .p {
+  text-align: center;
+}
+
+.subtitulo:after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 3px;
+  background: #2f4f4f;
+  margin: 19px auto 12px auto;
+}
 /*Header*/
 .header {
-  position: fixed; /*que é para fixar o menu*/
+  position: absolute; /*que é para fixar o menu*/
   top: 0; /*aqui é para manter sempre o header no topo*/
   width: 100%; /*aqui é para pegar todo o campo header*/
   background: #fdf0f1; /*aqui é a cor de fundo do header*/
@@ -63,7 +83,7 @@ p {
   height: 430px;
   background: url('../img/bg-principal.svg') no-repeat center; /*aqui vai carregar a imagem para compor a pagina */
   background-size: cover; /*aqui é para carregar na pagina inteira a imagem*/
-  margin-top: 89.32px; /*aqui foi colocado  o tamanho do header para que seja exibida a imagem*/
+  /*margin-top: 89.32px;*/ /*aqui foi colocado  o tamanho do header para que seja exibida a imagem*/
   text-align: center;
   padding-top: 100px;
 }
@@ -100,4 +120,19 @@ p {
   font-weight: bold;
   font-size: 14px;
   letter-spacing: 0.1em;
+}
+
+/*Produtos*/
+.container h2 {
+  margin-top: 50px;
+  font-family: Georgia, 'Times New Roman', Times, sans-serif;
+  color: #2f4f4f;
+}
+
+.container p {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  text-align: center;
+  line-height: 20px;
+  color: #2f4f4f;
 }
