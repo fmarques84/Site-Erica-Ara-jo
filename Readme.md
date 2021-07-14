@@ -5,3 +5,5 @@ Nesta página será apresentado os serviços prestados pela Assessora Erica Arau
 09/07/2021 - Realizado a criação da header com menu e inicio do background incluindo botao de orçamento
 
 12/07/2021 - Realizado a crição do campo home-serviços adicinados grid e botões de interação na página 
+
+13/07/2021 - Realizado a crição do campo home-portifolio adicionando ainda osserviços de aleitamento materno
