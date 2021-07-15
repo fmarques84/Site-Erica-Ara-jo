@@ -9,6 +9,10 @@ p {
   line-height: 20px;
 }
 
+img {
+  display: block;
+}
+
 .novo-texto {
   padding-top: 10px;
   font-size: 13px;
@@ -62,6 +66,16 @@ p {
 }
 
 .call-port p {
+  margin-bottom: 18px;
+}
+
+.call-qualid {
+  text-align: center;
+  padding-top: 35px;
+  clear: both;
+}
+
+.call-qualid p {
   margin-bottom: 18px;
 }
 
@@ -194,7 +208,6 @@ p {
   margin: 2px auto;
 }
 
-
 .produtos-lista li p {
   padding: 10px 20px 20px 20px;
   font-family: Georgia, 'Times New Roman', Times, sans-serif;
@@ -204,14 +217,60 @@ p {
   padding: 14px;
 }
 
-
 /*Portifólio*/
-.portfolio{
+.portfolio {
   width: 100%;
   background: #fdf0f1;
-  padding:40px 0;
+  padding: 40px 0;
 }
 
-.grid-16{
+.grid-16 {
   padding-top: 20px;
+}
+
+/*Qualidade*/
+.qualidade {
+  padding: 40px 0;
+}
+
+.qualidade:after {
+  content: '';
+  width: 634px;
+  height: 83px;
+  display: block;
+  background: url("../img/linhas.svg")no-repeat center;
+  position: absolute;
+  top: 130px;
+  right: 165px;
+  z-index: -1;
+}
+
+.qualidade img {
+  margin: 0 auto;
+  height: 70px;
+}
+
+.qualidade-lista li {
+  text-align: center;
+  padding: 0 40px;
+  margin-top: 70px;
+}
+
+.qualidade-lista li h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  font-family: Georgia, 'Times New Roman', Times, sans-serif;
+}
+
+.qualidade-lista{
+  padding-top:-10px;
+}
+.qualidade-lista li h3:after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #2f4f4f;
+  margin: 8px auto;
 }
