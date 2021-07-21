@@ -9,3 +9,5 @@ Nesta página será apresentado os serviços prestados pela Assessora Erica Arau
 13/07/2021 - Realizado a crição do campo home-portifolio adicionando ainda osserviços de aleitamento materno
 
 15/07/2021 - Realizada a criação da campo homo-qualidade adicionando as premissas do serviço executado
+
+20/07/2021 - Iniciando a criação do footer da pagina
